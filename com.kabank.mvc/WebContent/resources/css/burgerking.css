@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+#wrapper{width : 80%; height:600px;  margin: 0 auto;}
+#wrapper tr{width : 100%; height :50px;}
+#wrapper tr th{width : 100%; height :30px;}
+#wrapper tr td {width : 100%; height :30px;}
+#login-box{width:300px;margin: 0 auto;} 

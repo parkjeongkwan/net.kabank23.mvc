@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<c:set var="context" value="<%=application.getContextPath()%>" />
+<c:set var="style" value="${context}/resources/css" />
+<c:set var="javascript" value="${context}/resources/js" />
+<c:set var="image" value="${context}/resources/img" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Index</title>
+	<link rel="shortcut icon" href="${image}/favicon.ico">
+	<link rel="stylesheet" href="${style}/common.css" />
+	<link rel="stylesheet" href="${style}/header.css" />
+	<link rel="stylesheet" href="${style}/login.css" />
+	<link rel="stylesheet" href="${style}/mypage.css" />
+	<link rel="stylesheet" href="${style}/nav.css" />
+</head>
+<body>
+<div id="wrapper">
+<header id="header">
+	<h1><a href="../burgerking/main.jsp" >
+		BIT CAMP SAMPLE PROJECT
+	</a></h1>
+</header>
+
+		
+		
+		
+		
+		
+		

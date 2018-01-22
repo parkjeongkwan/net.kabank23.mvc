@@ -1,0 +1,8 @@
+@charset "UTF-8";
+#login-outer-table {width : 80%; margin: 0 auto; margin-top: 200px; text-align: center}
+#login-inner-table tr{border: 1px solid gray}
+#login-inner-table tr td{border: 1px solid gray}
+#login-inner-table {width: 300px; margin: 0 auto;border: 1px solid gray}
+#login-userid-input {width: 190px; height: 45px}
+#login-password-input {width: 190px; height: 45px}
+#login-btn {width: 100px; height: 100px}

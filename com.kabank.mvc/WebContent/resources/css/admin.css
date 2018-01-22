@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+#aside{float: left ; width: 150px; height: 520px ; background: #e8e8e8; margin-right: 50px}
+#section{width: 25%; height: 100%; float: left}
+#admin_main_table{width: 70%; height: 100%; margin : 5% auto;border: 1px solid gray;float:left}
+#admin_main_table tr{border: 1px solid gray}
+#admin_main_table td{border: 1px solid gray;width: 30%;height: 200px;text-align: center;}
+#admin_main_table tr td{width: 30%}
+#member_list_table{width: 800px; height: 400px; margin : 5% auto;border: 1px solid gray}
+#member_list_table tr{border: 1px solid gray}
+#member_list_table th{border: 1px solid gray;width: 30%;height: 30px;text-align: center;}
+#member_list_table td{border: 1px solid gray;width: 30%;height: 30px;text-align: center;}
+#create_table_btn{width: 100%;height: 100%}
+#title{text-align: center;margin-top: 50px}
+#move_member_btn_img{width: 150px;height: 150px;}

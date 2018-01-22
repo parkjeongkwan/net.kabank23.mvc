@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<nav id="nav">
+	<ul>
+		<li>
+			<a id="burgerking" class="cursor-pointer">버거킹</a></li>
+		<li>
+			<a id="nav-kakao-link" class="cursor-pointer">카카오뱅크</a>
+		</li>
+		<li>
+			<a id="bitcamp" class="cursor-pointer">비트캠프</a>
+		</li>
+		<li>
+			<a id="nav-mobile-link" class="cursor-pointer">SK 텔레콤</a>
+		</li>
+		<li>
+			<a id="lotto" class="cursor-pointer">로또</a>
+		</li>
+		<li>
+			<a id="mypage" class="cursor-pointer">마이페이지</a>
+		</li>
+		<li>
+			<a id="logout" class="cursor-pointer">로그아웃</a>
+		</li>
+	</ul>
+</nav>
+<script>
+document.querySelector('#nav-kakao-link').addEventListener(
+		'click',
+		function(){
+			location.href = "${context}/account.do?dir=account&page=main";
+		},
+		false);
+document.querySelector('#nav-mobile-link').addEventListener(
+		'click',
+		function(){
+			location.href = "${context}/account.do?dir=mobile&page=main";
+		},
+		false);
+</script>

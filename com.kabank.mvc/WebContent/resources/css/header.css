@@ -1,0 +1,17 @@
+@charset "UTF-8";
+#header{
+	height: 50px;
+	width: 100%;
+	background: #0000a0;
+}
+#header>h1{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+#header>h1>a{
+	color: white;
+}
+#header>a{
+	color: #c0c0c0
+}

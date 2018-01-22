@@ -1,0 +1,19 @@
+@charset "UTF-8";
+#nav{
+	background: #0000a0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#nav ul{
+	height: 10%
+}
+#nav li{
+	display: inline-block;
+	list-style: none;
+	width:10%;
+	text-align: center;
+}
+#nav li a{
+	color: white;
+	font: bold 14px verdana, sans-serif;
+}
