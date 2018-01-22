@@ -22,6 +22,7 @@ public class JDBCTest {
 			
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
+			// test
 			e.printStackTrace();
 		} 
 			
